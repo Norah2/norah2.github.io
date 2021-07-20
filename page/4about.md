@@ -17,11 +17,13 @@ type: page
 
 * GitHub：[Nora Nan](https://github.com/Norah2)
 * email：2238708584@qq.com
-<!-- * [Weibo](http://weibo.com/3115521wh)
+<div style='display: none'>
+* [Weibo](http://weibo.com/3115521wh)
 * [知乎](https://www.zhihu.com/people/gaohaoyang)
 * [Facebook](https://www.facebook.com/gaohaoyang.water)
 * [豆瓣](https://www.douban.com/people/42525035/)
 * [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/) -->
+</div>
 
 ## 友情链接
 
