@@ -57,8 +57,10 @@ table {
 
 其实图片也没有默认居中，算了不调了，图片不居中看起来还行。  
 
+记录一下我的修改表格和图片的设置在`_sass`文件下的`_reset.scss`文件中。
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2021/07/20/TableCenter/) 
+
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2021/07/21/TableCenter/) 
 
 <!--本文用到的链接-->
 
