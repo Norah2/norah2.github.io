@@ -207,6 +207,7 @@ type: page
 
 * [51CTO](http://e-learning.51cto.com/introduce)
 
+* [CSDN程序员研修院](https://edu.csdn.net/)
 
 ## 游戏
 
