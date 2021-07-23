@@ -229,7 +229,9 @@ type: page
 
 * [斯坦福教育网站](https://webprotege.stanford.edu/)
 
-	不太记得这个网站作什么的了，看的是里面可以用提供的资源搭建项目，但是又感觉有点奇怪，有时间再研究一下。
+	不太记得这个网站作什么的了，看的是里面可以用提供的资源搭建项目，但是又感觉有点奇怪，有时间再研究一下。  
+
+* [GitHub相关IP信息查询](https://github.com.ipaddress.com/)
 
 ## Comments
 
