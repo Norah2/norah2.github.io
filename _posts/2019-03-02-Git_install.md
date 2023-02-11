@@ -143,7 +143,7 @@ $ ssh-keygen -t rsa -C "your@email.com"（请填你设置的邮箱地址）
 
 "{{site.image_src_prefix}}+/02_Git_install/01.png"
 
-[pt_01]: ${{site.image_src_prefix}}/02_Git_install/01.png
+[pt_01]: {{site.url}}/02_Git_install/01.png
 [pt_02]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/02_Git_install/02.png
 [pt_03]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/02_Git_install/03.png
 [pt_04]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/02_Git_install/04.png
