@@ -64,3 +64,5 @@ paginate: 10
 
 plugins:
   - jekyll-paginate
+
+image_src_prefix: "https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage"
