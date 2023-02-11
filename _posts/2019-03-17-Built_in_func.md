@@ -986,14 +986,6 @@ https://www.jianshu.com/p/5d3c52c5c2a2
 
 <!--以下是本文中的链接-->
 
-<script>
-{{ site.image_src_prefix }}
-
-{% assign src = site.image_src_prefix %}
-</script>
-
-<div>{{site.image_src_prefix}}</div>
-
-[func]: https://{{src}}/05_Built_in_func/01.png
+[func]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/05_Built_in_func/01.png
 
 {% endraw %}
