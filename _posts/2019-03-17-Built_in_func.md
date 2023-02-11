@@ -992,6 +992,8 @@ https://www.jianshu.com/p/5d3c52c5c2a2
 {% assign src = site.image_src_prefix %}
 </script>
 
+<div>{{site.image_src_prefix}}</div>
+
 [func]: https://{{src}}/05_Built_in_func/01.png
 
 {% endraw %}
