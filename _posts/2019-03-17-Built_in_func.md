@@ -985,11 +985,6 @@ https://www.jianshu.com/p/5d3c52c5c2a2
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/17/Built_in_func/) 
 
 <!--以下是本文中的链接-->
-
-<script>
-var func = "{{post.image_src_prefix}}/05_Built_in_func/01.png"; 
-</script>
-
-[func]:func
+[func]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/05_Built_in_func/01.png
 
 {% endraw %}
