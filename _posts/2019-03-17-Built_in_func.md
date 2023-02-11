@@ -986,8 +986,12 @@ https://www.jianshu.com/p/5d3c52c5c2a2
 
 <!--以下是本文中的链接-->
 
-{% include variable.html%}
+<script>
+{{ site.image_src_prefix }}
 
-[func]: https://{{image_src_prefix}}/05_Built_in_func/01.png
+{% assign src = site.image_src_prefix %}
+</script>
+
+[func]: https://{{src}}/05_Built_in_func/01.png
 
 {% endraw %}
