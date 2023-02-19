@@ -4,7 +4,7 @@ title: 简单计算器C代码的实现思路以及代码
 date: 2023-02-19
 description: 简单计算器C代码的实现思路以及代码，同时介绍了中缀表达式转后缀表达式的算法，以及中缀表达式计算的算法。  
 categories: C/C++
-tags: C/C++ 
+tags: C/C++ 算法
 author: NMt
 mathjax: true
 ---
