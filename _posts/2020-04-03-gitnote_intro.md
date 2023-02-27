@@ -4,7 +4,7 @@ title: GitNote软件——强力推荐
 date: 2020-04-03
 description: 软件介绍  
 categories: Install
-tags: Install GitNote
+tags: Install
 author: NMt
 mathjax: true
 ---

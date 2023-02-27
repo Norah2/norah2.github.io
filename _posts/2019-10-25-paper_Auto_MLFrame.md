@@ -3,7 +3,7 @@ layout: post
 title: Benchmarking Automatic Machine Learning Frameworks  
 date: 2019-10-25
 description: 本文记录了笔者阅读的一篇论文Benchmarking Automatic Machine Learning Frameworks，一篇有关于机器学习中AutoML框架的对比分析论文。  
-categories: ML
+categories: Paper
 tags: ML Paper
 author: NMt
 mathjax: true

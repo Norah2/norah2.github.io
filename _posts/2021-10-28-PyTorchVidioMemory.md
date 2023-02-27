@@ -3,8 +3,8 @@ layout: post
 title: PyTorch显存机制分析
 date: 2021-10-28
 description: 
-categories: DL
-tags: DL
+categories: Python
+tags: Python DL
 author: NMt
 mathjax: true
 ---

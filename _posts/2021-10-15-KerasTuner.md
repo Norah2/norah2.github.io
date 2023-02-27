@@ -3,8 +3,8 @@ layout: post
 title: 使用 Keras Tuner 对神经网络进行超参数调优
 date: 2021-10-15
 description: 使用 Keras Tuner 对神经网络进行超参数调优
-categories: DL
-tags: DL AI
+categories: Python
+tags: Python DL
 author: NMt
 mathjax: true
 ---

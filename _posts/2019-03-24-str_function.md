@@ -4,7 +4,7 @@ title: 字符串方法总结
 date: 2019-03-24
 description: 本篇文章总结了关于字符串类型数据结构的全部方法   
 categories: Python
-tags: Python Fun Str
+tags: Python Func Str
 author: NMt
 mathjax: true
 ---
