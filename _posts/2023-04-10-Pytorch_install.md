@@ -24,10 +24,10 @@ mathjax: true
 
 {% raw %}
 安装Pytorch的流程：  
-[安装Visual Studio](#一安装visual-studio);  
-[安装CUDA](#二安装cuda);  
-[安装CUDNN](#三安装cudnn);  
-[安装pytorch](#四安装pytorch)。  
+[1. 安装Visual Studio](#一安装visual-studio);  
+[2. 安装CUDA](#二安装cuda);  
+[3. 安装CUDNN](#三安装cudnn);  
+[4. 安装pytorch](#四安装pytorch)。  
 
 ## 一、安装Visual Studio  
 
