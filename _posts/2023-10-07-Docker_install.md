@@ -12,7 +12,7 @@ mathjax: true
 * content
 {:toc}
 
-description
+安装软件[Docker Desktop][link_01]的时候出现了报错，造成Docker软件无法正常打开，显示的是WSL的版本太低，因此需要自己另外想办法将WSL升级一下，先尝试了一下在Power Shell中使用命令升级，然后发现会报错，因此找了教程，这里记录一下成功升级的方法。  
 
 <div style='display: none'>
 @@@@
@@ -24,17 +24,18 @@ description
 
 {% raw %}
 
-安装软件[Docker Desktop][link_01]的时候出现了报错，造成Docker软件无法正常打开，显示的是WSL的版本太低，因此需要自己另外想办法将WSL升级一下，先尝试了一下在Power Shell中使用命令升级，然后发现会报错，因此找了教程，这里记录一下成功升级的方法。  
+[Docker Desktop：https://www.docker.com/][link_01]直接在官网下载即可。  
+[在线学习资源][link_02]  
 
 ## 准备  
 
 1. 打开任务管理器，查看CPU下的虚拟化是否启用，若没有启用则需要开启。  
 	
-	[pt_01]  
+	![][pt_01]  
 
 2. 打开“启用或关闭Windows功能”，检查“适用于Linux 的Windows子系统”是否勾选，若没有则需要勾选。  
 	
-	[pt_02]  
+	![][pt_02]  
 
 ## wsl2  
 
@@ -46,7 +47,7 @@ description
 wsl --list --online
 ```
 
-[pt_03]  
+![][pt_03]  
 
 * 安装对应版本  
 
@@ -62,7 +63,7 @@ wsl --install -d Ubuntu-20.04
 
 * 获取WSL2 Linux内核更新包并运行  
 
-```shell
+```cmd
 https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 ```
 
