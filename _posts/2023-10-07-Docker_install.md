@@ -58,12 +58,13 @@ wsl --install -d Ubuntu-20.04
 # https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 ```
 
+![][pt_04]  
 
 ## wsl更新到wsl2  
 
 * 获取WSL2 Linux内核更新包并运行  
 
-```cmd
+```shell
 https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 ```
 
@@ -95,6 +96,8 @@ PS C:\WINDOWS\system32> wsl -l -v
 * Ubuntu-20.04    Stopped         2
 ```
 
+![][pt_05]  
+
 ## wsl2迁移  
 
 ```shell
@@ -119,8 +122,11 @@ ubuntu2004.exe config --default-user zkc
 # 看下图进入对应目录,找到ubuntu2004.exe，在此目录进入cmd执行上面的命令
 ```
 
+![][pt_07]  
 
-## Docker-Desktop储存路径更改(现在的新版没有办法更改安装位置，按照下面的方法在安装的时候会报错，这里只是记录一下，如果使用旧版安装要记住这个操作是在安装之前进行)  
+## Docker-Desktop储存路径更改  
+
+提示：现在的新版没有办法更改安装位置，按照下面的方法在安装的时候会报错，这里只是记录一下，如果使用旧版安装要记住这个操作是在安装之前进行  
 
 ```shell
 # Docker Desktop的默认存储路径
@@ -187,6 +193,9 @@ wsl --import docker-desktop D:\wsl2\docker\docker-desktop D:\wsl2\docker\docker-
 wsl --import docker-desktop-data D:\wsl2\docker\docker-desktop-data D:\wsl2\docker\docker-desktop-data.tar --version 2
 ```
 
+![][pt_06]  
+
+
 ## win系统安装docker 需要注意本机端口是否被使用，如果使用映射的时候就没法用了  
 
 ```shell
@@ -221,6 +230,11 @@ netsh interface ipv4 show excludedportrange protocol=tcp
 [pt_01]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/81_Docker_install/01.png  
 [pt_02]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/81_Docker_install/02.png  
 [pt_03]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/81_Docker_install/03.png  
-[link_01]: https://www.docker.com/
+[pt_04]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/81_Docker_install/04.png  
+[pt_05]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/81_Docker_install/05.png  
+[pt_06]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/81_Docker_install/06.png  
+[pt_07]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/81_Docker_install/07.png  
+[link_01]: https://www.docker.com/  
+[link_02]: https://github.com/RumbleDB/bigdata-exercises/tree/master/Big_Data_For_Engineers  
 
 {% endraw %}
