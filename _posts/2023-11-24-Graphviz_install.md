@@ -75,42 +75,42 @@ python manage.py graph_models -a -o my_project_model_graph.png
 
 * 缺少 `pydotplus` 以及`pygraphviz` 两个依赖包：  
 
-```bash
-CommandError: Neither pygraphviz nor pydotplus could be found to generate the image. To generate text output, use the --json or --dot options.
-```
+	```bash
+	CommandError: Neither pygraphviz nor pydotplus could be found to generate the image. To generate text output, use the --json or --dot options.
+	```
 
-解决方案：  
+	解决方案：  
 
-```bash
-pip install pydotplus
-pip install pygraphviz
-```
+	```bash
+	pip install pydotplus
+	pip install pygraphviz
+	```
 
 
 * 安装过程中缺少了 `graphviz/cgraph.h` 文件:  
 
-```bash
-  note: This error originates from a subprocess, and is likely not a problem with pip.
-  ERROR: Failed building wheel for pygraphviz
-  Running setup.py clean for pygraphviz
-Failed to build pygraphviz
-ERROR: Could not build wheels for pygraphviz, which is required to install pyproject.toml-based projects
-```
+	```bash
+	  note: This error originates from a subprocess, and is likely not a problem with pip.
+	  ERROR: Failed building wheel for pygraphviz
+	  Running setup.py clean for pygraphviz
+	Failed to build pygraphviz
+	ERROR: Could not build wheels for pygraphviz, which is required to install pyproject.toml-based projects
+	```
 
-这通常意味着 Graphviz 库没有被正确安装或者没有被添加到系统路径中。并且需要注意的是，若是正确加入环境变量之后仍旧出现这种问题，说明设置并没有生效，可以重启命令行工具。  
+	这通常意味着 Graphviz 库没有被正确安装或者没有被添加到系统路径中。并且需要注意的是，若是正确加入环境变量之后仍旧出现这种问题，说明设置并没有生效，可以重启命令行工具。  
 
 *  `Django-extensions` 的版本与 Django 版本不兼容  
 
-```bash
-AttributeError: module 'django.db.models.deletion' has no attribute 'RESTRICT'
-```
+	```bash
+	AttributeError: module 'django.db.models.deletion' has no attribute 'RESTRICT'
+	```
 
-解决方案：需要检查 Django 和 `Django-extensions` 的版本，并且通过查看官方文档来确定可以兼容的版本。  
+	解决方案：需要检查 Django 和 `Django-extensions` 的版本，并且通过查看官方文档来确定可以兼容的版本。  
 
-```bash
-python -m django --version
-pip show django-extensions
-```
+	```bash
+	python -m django --version
+	pip show django-extensions
+	```
 
 
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2023/11/24/Graphviz_install/) 
@@ -118,7 +118,7 @@ pip show django-extensions
 <!--本文用到的链接-->
 
 [pt_01]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/82_Graphviz_install/01.png  
-[pt_01]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/82_Graphviz_install/02.png  
+[pt_02]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/82_Graphviz_install/02.png  
 
 [link_01]: https://graphviz.org/download/  
 
