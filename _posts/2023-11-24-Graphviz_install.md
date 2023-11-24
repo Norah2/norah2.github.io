@@ -33,7 +33,9 @@ pip install django-extensions
 
 **注：django-extensions的版本要和Django的版本互相兼容。**  
 
-### 2. 在 Django 项目的 settings.py 中添加 `django_extensions` 到 `INSTALLED_APPS`:  
+### 2. 更改配置文件  
+
+在 Django 项目的 settings.py 中添加 `django_extensions` 到 `INSTALLED_APPS`:  
 
 ```python
 INSTALLED_APPS = [
@@ -113,6 +115,11 @@ python manage.py graph_models -a -o my_project_model_graph.png
 	```
 
 
+[django-extensions官方文档][link_02]: https://pypi.org/project/django-extensions/#history  
+[Django官方文档][link_03]: https://www.djangoproject.com/download/  
+[channels官方文档][link_04]: https://channels.readthedocs.io/en/latest/index.html  
+
+
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2023/11/24/Graphviz_install/) 
 
 <!--本文用到的链接-->
@@ -121,5 +128,8 @@ python manage.py graph_models -a -o my_project_model_graph.png
 [pt_02]: https://nora-blogimg.oss-cn-hangzhou.aliyuncs.com/BlogImage/82_Graphviz_install/02.png  
 
 [link_01]: https://graphviz.org/download/  
+[link_02]: https://pypi.org/project/django-extensions/#history  
+[link_03]: https://www.djangoproject.com/download/  
+[link_04]: https://channels.readthedocs.io/en/latest/index.html  
 
 {% endraw %}
