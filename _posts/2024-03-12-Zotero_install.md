@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zeotero 6.0 安装指南  
+title: Zotero 6.0 安装指南  
 date: 2024-03-12
 description: 记录了使用zotero软件的过程，综合了多方资料。后续若进一步有补充，再来改进。
 categories: Install
